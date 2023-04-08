@@ -12,7 +12,7 @@ export const Home = () => {
 
 return(
 	<div className="conatiner m-auto">	
-	<div class="row justify-content-center">
+	<div className="row justify-content-center">
 	{/* <div className="col-sm-6 col-md-4 "> <Search/></div> */}
 	</div>
 		<h1 className="text-center fs-1 bg-7 mt-2 text-warning"> <strong> Characters</strong></h1>

@@ -8,14 +8,14 @@ export const Navbar = () => {
   const { store, actions } = useContext(Context)
 
   return (
-    <nav class="navbar navbar-expand header-nav navbar-dark sticky-top p-2 " id='nav'>
+    <nav className="navbar navbar-expand header-nav navbar-dark sticky-top p-2 " id='nav'>
     <div className='container-fluid m-auto'>
-      <div class="container" style={{ width: '80%' }}> 
+      <div className="container" style={{ width: '80%' }}> 
       <Link className="navbar-brand" to='/'>
           <img
             src={logo}
             className='img-fluid'
-            style={{ width: '200px' }}
+            style={{ width: '150px' }}
           />
         
       </Link>

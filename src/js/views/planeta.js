@@ -7,8 +7,8 @@ import { CardHorizontal1 } from "../component/cardhorizontal1.jsx";
 export const Planetas = () => {
 	const { store, actions } = useContext(Context);
 	const params = useParams();
-	console.log(params.theid); 
-	console.log(params);
+	// console.log(params.theid); 
+	// console.log(params);
 	
 	useEffect(()=>{
 		actions.loadinfoPlanetas(params.theid)

@@ -7,8 +7,8 @@ import { CardHorizontal } from "../component/cardhorizontal.jsx";
 export const Personajes = () => {
 	const { store, actions } = useContext(Context);
 	const params = useParams();
-	console.log(params.theid); 
-	console.log(params);
+	// console.log(params.theid); 
+	// console.log(params);
 
       useEffect (()=>{
             actions.loadinfoPersonajes(params.theid);

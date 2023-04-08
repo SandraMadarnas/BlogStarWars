@@ -7,8 +7,8 @@ import { CardHorizontal2 } from "../component/cardhorizontal2.jsx";
 export const Vehiculos = props => {
 	const { store, actions } = useContext(Context);
   const params = useParams();
-	console.log(params.theid); 
-	console.log(params);
+	// console.log(params.theid); 
+	// console.log(params);
 
 	
 	useEffect(()=>{
