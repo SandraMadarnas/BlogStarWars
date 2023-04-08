@@ -13,7 +13,7 @@ export const Home = () => {
 return(
 	<div className="conatiner m-auto">	
 	<div class="row justify-content-center">
-	<div className="col-sm-6 col-md-4 "> <Search/></div>
+	{/* <div className="col-sm-6 col-md-4 "> <Search/></div> */}
 	</div>
 		<h1 className="text-center fs-1 bg-7 mt-2 text-warning"> <strong> Characters</strong></h1>
 		<div className=" row flex-nowrap overflow-auto border text-center border-warning m-4">
